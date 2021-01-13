@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+
+.profile {
+    margin-bottom: 50px;
+    width: 175px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    display: table;
+
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#bio {
+    padding: 150px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 6px auto;
+}
+
+h1,
+h2,
+p {
+    line-height: 1.2;
+    font-size: 40px;
+}
+.menu{
+    z-index:10;
+    list-style: none;
+    top:10px;
+    right:30px;
+    position:absolute;
+}
+.links{
+    float:left;
+    margin:20px;
+    font-size:50px;
+    color:white;
+}
+.links:hover{
+    background-color: dodgerblue;
+}
